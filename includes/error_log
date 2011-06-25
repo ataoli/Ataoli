@@ -1,0 +1,60 @@
+[21-Jun-2011 06:55:44] PHP Warning:  include_once(includes/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 06:55:44] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 06:55:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ataoli/public_html/galenux/librerias/conex.php:3) in /home/ataoli/public_html/galenux/includes/control.php on line 88
+[21-Jun-2011 06:55:44] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[21-Jun-2011 07:02:52] PHP Warning:  include_once(includes/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 07:02:52] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 07:02:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ataoli/public_html/galenux/librerias/conex.php:3) in /home/ataoli/public_html/galenux/includes/control.php on line 88
+[21-Jun-2011 07:02:52] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[21-Jun-2011 07:04:03] PHP Warning:  include_once(includes/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 07:04:03] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ataoli/public_html/galenux/librerias/conex.php on line 3
+[21-Jun-2011 07:04:03] PHP Warning:  include_once(includes/config.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/ataoli/public_html/galenux/librerias/conex.php on line 56
+[21-Jun-2011 07:04:03] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ataoli/public_html/galenux/librerias/conex.php on line 56
+[21-Jun-2011 07:04:03] PHP Fatal error:  Cannot redeclare conectarse() (previously declared in /home/ataoli/public_html/galenux/librerias/conex.php:7) in /home/ataoli/public_html/galenux/librerias/conex.php on line 57
+[21-Jun-2011 07:07:30] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[21-Jun-2011 07:32:35] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 05:56:49] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 09:44:06] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 10:57:45] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 11:55:55] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 11:56:08] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 14:11:26] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[22-Jun-2011 16:36:16] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 05:42:53] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 05:56:47] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 06:35:58] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 06:36:11] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 09:17:10] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 09:17:16] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 09:17:28] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 10:46:16] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 10:46:27] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 15:43:52] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 16:45:09] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 18:42:08] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 18:42:57] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:09:25] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:11:15] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:42:40] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:42:53] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:45:02] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:45:52] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[23-Jun-2011 23:52:17] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 08:48:49] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 08:58:41] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 10:10:40] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 11:32:39] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 11:32:55] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 11:32:55] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 11:34:25] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:00:54] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:01:28] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:03:54] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:04:21] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:04:25] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:16:26] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:17:28] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 12:18:15] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 13:03:14] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 13:37:25] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
+[25-Jun-2011 13:41:57] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/ataoli/public_html/galenux/includes/control.php on line 94
