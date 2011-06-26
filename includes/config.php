@@ -1,5 +1,5 @@
 <?php 
-$Usuario=""
+$Usuario="";
 $Password="";
 $Servidor="";
 $BaseDeDatos="";
