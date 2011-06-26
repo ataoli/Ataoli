@@ -14,3 +14,9 @@ Configuración Inicial
 ---------------------------------------
 Paramatros de conexión a la base de datos:
 - includes/config.php
+
+Instalación
+---------------------------------------------
+- Crear base de datos con los parametros iniciales
+    - Desde Mysql Workbench abrir /db/ataoli_er.mwb y sincronizar la nueva base de datos
+    - 
