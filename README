@@ -1,0 +1,16 @@
+Bienvenido....
+----------------------------------------
+Gracias por colaborar con Ataoli
+
+
+Requerimientos
+----------------------------------------
+PHP 4 o superior
+MySQL 4 o superior
+Servidor Web
+
+
+Configuración Inicial
+---------------------------------------
+Paramatros de conexión a la base de datos:
+- includes/config.php
