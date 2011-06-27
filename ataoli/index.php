@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 // Comprobamos si existe la variable
 if ( isset ( $_SESSION['grupo'] ) ) {
