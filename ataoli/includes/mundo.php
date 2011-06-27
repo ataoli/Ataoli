@@ -11,7 +11,7 @@ global $pais , $departamento, $ciudad;
 ?>
 
 Pais:<br>
-<select name="cod_pais" id="cod_pais" onchange="xajax_generar_select(xajax.getFormValues('<? echo $formulario ?>'))">
+<select name="cod_pais" id="cod_pais" onchange="xajax_generar_select(xajax.getFormValues('<?php echo $formulario ?>'))">
 <option value="999" SELECTED></option>
 
 <?php
@@ -62,7 +62,7 @@ echo "Ciudad: <b>$ciudad</b>";
 </div>
 
 <br>
-<? }?>
+<?php }?>
 <?php
 $control_version = '0aa0b6b3207f0b3839381db1962574a2'; 
 /*  ATENCION: Puede existir una versión mas reciente de este archivo en http://GaleNUx.com

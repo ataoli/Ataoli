@@ -1,4 +1,4 @@
-<?
+<?php
 function registrar_acceso($id){
 $lastdate = date('Y-m-d g:i:s');
 include_once("obtener_ip.php");

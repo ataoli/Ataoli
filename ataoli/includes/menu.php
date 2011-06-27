@@ -15,7 +15,7 @@ function mostrar(capa){
   if(obj.style.visibility== "hidden")  obj.style.visibility= "visible";
   else obj.style.visibility= "hidden";
 }
-</script><? echo $_SESSION['sucursal_nombre'] ?>
+</script><?php echo $_SESSION['sucursal_nombre'] ?>
 <table cellpadding="0" cellspacing="0" border="0" width="100%" >
 
 <?PHP 

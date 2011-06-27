@@ -1,4 +1,4 @@
-<? session_start();
+<?php session_start();
 
 session_destroy();
 $pagina=$_SERVER['HTTP_REFERER'];

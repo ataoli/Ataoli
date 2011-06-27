@@ -1,4 +1,5 @@
-<? session_start();
+<?php
+ session_start();
 //incluímos la clase ajax
 require ('../../xajax/xajax.inc.php');
 
@@ -14,7 +15,7 @@ $xajax->processRequests();
 <html xmlns="http://www.w3.org/1999/xhtml"xml:lang="es" lang="es" dir="ltr">
 <head>
 
- <? $xajax->printJavascript("../../xajax/");  ?>
+ <?php $xajax->printJavascript("../../xajax/");  ?>
 
 <script language="Javascript">
 <!--
@@ -27,7 +28,7 @@ $xajax->processRequests();
 //-->
 </script>
 
-  <title><? echo "$empresa $aplicacion $page $usuario"; ?></title>
+  <title><?php echo "$empresa $aplicacion $page $usuario"; ?></title>
 
     <link href="../estilos/impresion_pantalla.css" rel="stylesheet" type="text/css" >
 <link href="../estilos/impresion.css" rel="stylesheet" type="text/css" media="print">

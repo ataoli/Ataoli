@@ -259,7 +259,7 @@ else{
         <table style=" width: 100%;  text-align: left; vertical-align: top; " border="0" cellpadding="0" cellspacing="0">
         <tr>
         	<td><img src="images/logo.jpg"  border="0" alt="GaleNUx-praxis">
-<?
+<?php
 include ("includes/menu.php");
 echo "</td></tr></table>
             

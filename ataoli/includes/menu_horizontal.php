@@ -9,8 +9,8 @@ if ( !isset ( $_SESSION['grupo'] ) ) {
 
 ?>
  <div align='right'>
-<? echo $_SESSION['nombre_completo']; ?> en <b><? echo $_SESSION['razon_social']; ?></b>
- <a HREF="javascript:abrir('suscriptores/presentacion/enviar_correo.php?id=1&id_remitente=<? echo $_SESSION[id_usuario]; ?>','enviar_correo',750,400,100,0,1)" TITLE='soporte'><font  color="#FF0000">[ Soporte ]</font></a>
+<?php echo $_SESSION['nombre_completo']; ?> en <b><?php echo $_SESSION['razon_social']; ?></b>
+ <a HREF="javascript:abrir('suscriptores/presentacion/enviar_correo.php?id=1&id_remitente=<?php echo $_SESSION[id_usuario]; ?>','enviar_correo',750,400,100,0,1)" TITLE='soporte'><font  color="#FF0000">[ Soporte ]</font></a>
           
           [ <a href="?page=empresa">Configuración</a> ]
           <a href='includes/salir.php' title='Salir y cerrar la sesi&oacute;n'> Salir [<font  color="#FF0000">X</font>]</a>&nbsp;

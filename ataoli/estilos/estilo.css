@@ -26,8 +26,11 @@ form
     font-size: 14px;
     background-color: #ffffff;
     margin-top: 10px;
+    /*width:98%;*/
 }
-
+#form_index{
+    width:98%;
+}
 fieldset ol
 {
     list-style-type: none;

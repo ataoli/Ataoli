@@ -31,7 +31,7 @@ include_once("includes/datos.php");
 
 
 ?>
-<?
+<?php
 //incluímos la clase ajax
 require ('../xajax/xajax.inc.php');
 
@@ -45,9 +45,9 @@ $xajax->processRequests();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml"xml:lang="es" lang="es" dir="ltr">
 <head>
- <? $xajax->printJavascript("../xajax/");  ?>
+ <?php $xajax->printJavascript("../xajax/");  ?>
 <script language="JavaScript" src="librerias/scripts.js" type="text/javascript"></script>
- <title><? echo " // $_SESSION[$usuarios_sesion] // $usuarios_sesion //$empresa $aplicacion $page $usuario";  ?> </title>
+ <title><?php echo " // $_SESSION[$usuarios_sesion] // $usuarios_sesion //$empresa $aplicacion $page $usuario";  ?> </title>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link href="estilos/estilo.css" rel="stylesheet" type="text/css">
   <link href="estilos/galenux.css" rel="stylesheet" type="text/css">

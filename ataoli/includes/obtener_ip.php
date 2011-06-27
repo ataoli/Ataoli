@@ -1,4 +1,4 @@
-<?
+<?php
 function obtener_ip()
 {   
     if (isset($_SERVER)) {

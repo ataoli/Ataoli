@@ -1,5 +1,4 @@
-
-<?
+<?php
 //incluímos la clase ajax
 require ('../../xajax/xajax.inc.php');
 
@@ -30,7 +29,7 @@ document.onkeypress = stopRKey;
 document.onkeydown = stopRKey;
 </script>
 
- <? $xajax->printJavascript("../../xajax/");  ?>
+ <?php $xajax->printJavascript("../../xajax/");  ?>
 
 <script language="Javascript">
 <!--
@@ -43,7 +42,7 @@ document.onkeydown = stopRKey;
 //-->
 </script>
 
-  <title><? echo "$empresa $aplicacion $page $usuario"; ?></title>
+  <title><?php echo "$empresa $aplicacion $page $usuario"; ?></title>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="../estilos/estilo.css" rel="stylesheet" type="text/css">
   <link rel="SHORTCUT ICON" href="../icono.ico"></head>

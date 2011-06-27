@@ -13,7 +13,7 @@ if ( !isset ( $_SESSION['grupo'] ) ) {
 Tipo tipo plan beneficios:<select name="editar_tipo_plan_beneficios" id="editar_tipo_plan_beneficios" onchange="xajax_select_editar_plan_beneficios(this.value)" size="1" style="width:250"> 
 	   <option value="">Seleccionar</option> 
 	   <option value="0">Crear Nuevo</option> 
-<?
+<?php
 include_once("librerias/conex.php"); 
 $link=Conectarse(); 
 mysql_query("SET NAMES 'utf8'");

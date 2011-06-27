@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 // Comprobamos si existe la variable
 if ( isset ( $_SESSION['grupo'] ) ) {
@@ -20,34 +19,43 @@ include_once("includes/datos.php");                                 		// HTTP/1.
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml"xml:lang="es" lang="es" dir="ltr">
 <head>  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Administracion de Usuarios <? echo $empresa; ?></title>
+<title>Administracion de Usuarios <?php echo $empresa; ?></title>
 
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  <link rel="SHORTCUT ICON" href="icono.ico">
-
-
-
 <link href="estilos/estilo.css" rel="stylesheet" type="text/css">
 </head>
-<body >
+<body onload="DetectBrowser();" >
+<div id="example"></div>
 
-<?  echo $_SESSION['usuario_login'] ; ?>
-<form action="includes/control.php" method="POST">
+<script type="text/javascript">
+ function DetectBrowser() {
+	var navegador = navigator.appName 
+	if (navegador == "Microsoft Internet Explorer") {
+		direccion=("explorer.html");
+		window.location=direccion;
+	}
+}
+</script>
+<?php  echo $_SESSION['usuario_login']; ?>
+<form id="form_index" action="includes/control.php" method="POST">
 <table width="80%" border="0" align="center">  
 <tr>
    <td colspan="3" align="center">
    
-   <br><br><img src="images/logo.jpg"  border="0" title="<? echo $empresa; ?>" alt="<? echo $empresa; ?>" align="top"><br>
+   <br><br><img src="images/logo.jpg"  border="0" title="<?php echo $empresa; ?>" alt="<?php echo $empresa; ?>" align="top"><br>
   </td>  
 </tr>
 <tr>
     <td colspan="2" align="center" 
-	<?if ($_REQUEST["errorusuario"]=="si"){?>
+	<?php if ($_REQUEST["errorusuario"]=="si"){?>
 		bgcolor=red><span style="color:ffffff"><b>Datos incorrectos</b></span>
-	<?php }elseif($_REQUEST["errorusuario"]=="inactivo"){echo "bgcolor=red><span style='color:ffffff'><b>Usuario inactivo</b></span>"; }
-	else{?>
+	<?php } elseif($_REQUEST["errorusuario"]=="inactivo"){ 
+		echo "bgcolor=red><span style='color:ffffff'><b>Usuario inactivo</b></span>"; 
+		} else { ?>
 		bgcolor=#cccccc>Por favor ingrese los siguientes datos:
-	<?}?></td>
+	<?php } ?>
+	</td>
 </tr>
 
 <tr>
